@@ -1,6 +1,6 @@
 # Tiny Chess — a 4 KB chess engine
 
-An original chess engine that fits in a single `main.py` of **4,086 bytes**,
+An original chess engine that fits in a single `main.py` of **3,330 bytes**,
 built for the [make.fun](https://make.fun/bounty/tiny-chess-01) `tiny-chess-01`
 bounty. The whole repository snapshot stays well under the 8,192-byte cap.
 
