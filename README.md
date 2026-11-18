@@ -4,9 +4,12 @@ An original chess engine that fits in a single `main.py` of **3,330 bytes**,
 built for the [make.fun](https://make.fun/bounty/tiny-chess-01) `tiny-chess-01`
 bounty. The whole repository snapshot stays well under the 8,192-byte cap.
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-tiny--chess--01-blue)](https://make.fun/bounty/tiny-chess-01)
-[![enter with my referral](https://img.shields.io/badge/referral-qtgxrqfw-green)](https://make.fun/r/qtgxrqfw)
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/dajinxiaodui/tiny-chess-engine/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/dajinxiaodui/tiny-chess-engine/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![license: MIT](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
+
+Enter make.fun with my referral link: https://make.fun/r/qtgxrqfw
 
 ## How it plays
 
