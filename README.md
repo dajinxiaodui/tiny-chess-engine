@@ -1,6 +1,6 @@
 # Tiny Chess — a 4 KB chess engine
 
-An original chess engine that fits in a single `main.py` of **3,330 bytes**,
+An original chess engine that fits in a single `main.py` of **4,079 bytes**,
 built for the [make.fun](https://make.fun/bounty/tiny-chess-01) `tiny-chess-01`
 bounty. The whole repository snapshot stays well under the 8,192-byte cap.
 
@@ -20,9 +20,13 @@ written once, for one colour. Positions are immutable and the evaluation is
 maintained incrementally through the rotation.
 
 Search is a negamax alpha-beta with principal-variation search, a transposition
-table, null-move pruning, late-move reductions and a quiescence search over
-captures and promotions (with full evasion search when in check). The evaluation
-is a tapered midgame/endgame blend of material and piece-square tables. A fixed
+table, null-move pruning, late-move reductions, check extensions and a
+quiescence search over captures and promotions (with full evasion search when
+in check). The evaluation is a tapered midgame/endgame blend of material and
+piece-square tables, plus a bishop-pair bonus and a passed-pawn bonus. At the
+root, when the position is clearly better, the engine will not play a move
+that repeats a position already seen in the game, so a winning position is
+played on instead of drawn by repetition. A fixed
 budget of 65,000 nodes per move keeps play fully deterministic: no wall clock,
 no randomness anywhere in move choice.
 
